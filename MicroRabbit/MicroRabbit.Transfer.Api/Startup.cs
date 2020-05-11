@@ -68,6 +68,7 @@ namespace MicroRabbit.Transfer.Api
                 app.UseHsts();
             }
 
+
             app.UseHttpsRedirection();
 
             app.UseSwagger();
